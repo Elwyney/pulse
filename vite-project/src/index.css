@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Google Sans';
+  src: url('./assets/GoogleSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Google Sans Bold';
+  src: url('./assets/GoogleSans-Bold.ttf');
+}
+
+body {
+  background: black;
+  height: 100vh;
+  font-family: 'Google Sans';
+}
+
+.title {
+  font-family: 'Google Sans Bold';
+  font-size: 34px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  padding: 50px 0;
+  margin: 0 auto;
+}
+
+
+.button {
+  margin-top: 15px;
+  background-color: #e2e2e2;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  color: #000000;
+  padding: 10px 70px;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  display: inline-block;
+  gap: 20px;
+  background-color: #1b1b1b;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.nav a {
+  color: #ffffff;
+  text-decoration: none;
+  color: #E6E6E6;
+  font-size: 14px;
+}
+
+.nav a:nth-child(2) {
+  color: #5F5F5F;
+  margin-left: 20px;
+}
+
+.description {
+  border-bottom: 1px dashed #313131;
+  font-size: 14px;
+  color: #8C8C8C;
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.phone {
+  font-size: 14px;
+  color: #A7A7A7;
+}
+.card-title {
+  color: #f7d3ab;
+  font-size: 16px;
+  display: block;
+  padding: 20px 0;
+}
+
+.card p {
+  color: #ececec;
+  font-size: 16px;
+}
